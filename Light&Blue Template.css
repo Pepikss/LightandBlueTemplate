@@ -1,0 +1,970 @@
+::-moz-selection {background-color: #25467B; color: #FFF; text-shadow: none !important}::selection {background-color: #25467B; color: #FFF; text-shadow: none !important}
+
+/*Banner pubblicitari nascosti*/
+.f9936562 .contenitore_banner {display: none}
+.f9936562 .contenitore_banner1 {display: none}
+.f9936562 .contenitore_banner2 {display: none}
+.f9936562 .contenitore_banner3 {display: none}
+
+.f9936561 .contenitore_banner {display: none}
+.f9936561 .contenitore_banner1 {display: none}
+.f9936561 .contenitore_banner2 {display: none}
+.f9936561 .contenitore_banner3 {display: none}
+
+/*Banner lungo*/
+ #fab-facebook {position: absolute;
+ top: 70%;
+ right: -2%;
+ display: inline-block;
+ background: url("") no-repeat scroll center center / 30px 30px #FFF;
+ width: 200px;
+ height: 400x;
+ border-radius: 0%;
+
+ overflow: hidden;
+ transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.2s, #000 0.2s ease 0s, visibility 0.2s ease 0s, opacity 0.2s ease 0s;
+ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26)}
+
+/*background stats*/
+#board .stats .skin_tbl.top {border: 0 none;
+ border-radius: 1px;
+ background: url("http://i.imgur.com/22G3SoW.jpg") repeat scroll 0% 0% transparent}
+
+/* Tema Chat Nuvola */
+div.chat_conversation_header {border-bottom: 1px solid #DDD}
+.chat_unread_messages {border-radius: 1px!important}
+.chat_online_counter {font-weight: 100!important; font-family: roboto!important}
+.chat_conversation_main::before {background: none !important}
+.chat_conversation_input > textarea {padding: 0 !important; resize: none}
+.chat_conversation_main {background: #EEEEEF !important; margin-bottom: auto !important}
+.chat_conversation_active {background: #45A200 !important}
+#chat_contact_request_form input, .chat_conversation_input .textinput {margin: 5px auto !important; background: #FFFFFF !important; color: #666 !important; outline: none}
+#chat_show {box-shadow: none !important; border-radius: 0 !important}
+#chat_main *, #chat_show * {outline:none !important}
+#chat_main, #chat_show {background: rgb(108, 198, 68) !important; color: #FFF!important; box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 2px 10px rgba(0, 0, 0, .2)!important; right: 0 !important}
+.chat_friend_list {padding: 5px 0 20px 0; position: relative}
+.chat_friend_list > .chat_avatar {float: left!important; margin-right: 4px!important; z-index: 9!important; cursor: pointer!important; border-radius: 100px !important; height: 30px!important; width: 30px!important}
+.chat_friend_offline_list > .chat_avatar {opacity: 0.7}
+.chat_friend_online_list > .chat_nick_list > a {color: #3F6296 !important}
+#chat_contacts_manager {text-align: center}
+#chat_contacts_requests, #chat_contacts_incomings {text-align: left !important}
+#chat_contacts_request_button {padding: 8px!important;
+color: #212121!important;
+background: transparent !important;
+transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+font-family: "Roboto";
+font-weight: 600;
+text-transform: uppercase!important;
+border: none!important;
+height: 36px;
+font-size: 13px!important;
+width: auto!important;
+box-shadow: none!important;
+border-radius: 0!important;
+border: none!important}
+#chat_contacts_request_button:hover {background: rgba(153, 153, 153, 0.2)!important;
+color: #212121!important}
+#chat_contacts_request_button:active {background: rgba(153, 153, 153, 0.4)!important}
+#chat_contact_request_send {background: #D5D5D5 !important;
+color: #666 !important}
+#chat_contact_request_send:hover {background: #CCC !important;
+color: #666 !important}
+#chat_contacts_incomings_header > span:before,
+#chat_contacts_requests_header > span:before {content: none !important; background: url(http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/16/Actions-list-add-user-icon.png) no-repeat !important; padding: 9px !important; display: inline-block; margin: 0 5px !important}
+#chat_friends_header p {color: #757575! important; font-size: 11pt !important; padding-left: 20px}
+#chat_friends_header p::before {content: none !important; background: url(http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/16/Places-user-identity-icon.png) no-repeat !important; padding: 8px 9px !important; margin: auto !important; display: inline-block}
+.chat_message:first-of-type {padding-top: 0 !important}
+.chat_message:last-of-type {padding-bottom: 15px !important}
+.chat_conversation_header span {line-height: 25px;
+height: 25px;
+margin: 0 !important;
+font-size: 14px;
+color: #212121 !important;
+font-weight: bold;
+display: inline-block;
+max-width: 400px;
+overflow: hidden;
+text-overflow: ellipsis;
+word-break: break-word;
+white-space: nowrap}
+.chat_conversation_toolbox {position: absolute; right: 30px}
+.chat_conversation_toolbox > li {border-radius: 0!important; padding: 0 !important; margin-left: 0 !important; background: transparent !important; border: 0 !important; text-align: center; vertical-align: middle; margin-top: 14px}
+.chat_conversation_toolbox_profile_forumfree a,
+.chat_conversation_toolbox_profile_forumcommunity a,
+.chat_conversation_toolbox_profile_blogfree a {display: none}
+
+
+.chat_conversation_toolbox_ignore a {font-size: 0;
+height: 24px!important;
+width: 24px!important;
+background: url(http://i.imgur.com/ouFvPsZ.png) no-repeat !important;
+padding: 22px!important;
+margin-right: 0}
+
+.chat_conversation_close {margin: 0!important}
+.chat_conversation_close span {background: url(http://i.imgur.com/zn5f8c4.png) no-repeat !important;
+height: 24px !important;
+width: 24px !important;
+padding: 0!important}
+.chat_discussion {padding: 1px; padding-left: 15px; position: relative; min-height: 55px}
+.chat_discussion:last-child {border-bottom: 0}
+.chat_discussion > div {border-radius: 2px; margin: 3px 3px 3px 52px; color: #333; background: #FFF; position:relative; border-style: solid;
+border-width: 15px 0 0 15px;
+border-color: transparent transparent transparent #EEEEEF}
+.chat_discussion_you > div {border-radius: 2px; margin: 3px 52px 3px 3px; color: #333; background: #25467B; position: relative; border-style: solid;
+border-width: 15px 15px 0 0;
+border-color: transparent #EEEEEF transparent transparent}
+.chat_discussion > div:before {content: none; width: 0; height: 0; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-right: 7px solid #DDD; position: absolute; left: 65px; top: 10px}
+.chat_discussion_you > div:before {top: 5px !important; right: -7px; left: auto !important; border-right: 0 !important}
+.chat_message_avatar {display: block !important; background: #FFF !important; -webkit-border-radius: 90px !important; -moz-border-radius: 90px !important; border-radius: 90px!important; width: 45px !important; height: 45px !important; margin-top: 3px !important; margin-left: 0 !important}
+.chat_discussion_you > .chat_message_avatar {float: right !important; margin-top: 5px !important; margin-right: 5px !important}
+.chat_nick {display: none !important; position: absolute; bottom: 20px; left: 75px; color: #111 !important; font-weight: bold; text-shadow: #CCC 1px 1px 2px !important; font-size: 14px !important}
+.chat_discussion_you .chat_nick {height: 1px !important; display: none !important; text-shadow: none !important; color: #FFF !important; bottom: 20px; left: 0; box-shadow: 0 0 0}
+.chat_time {display: block !important; position: absolute; right: -4px; bottom: -6px; width: 50px; text-align: center; color: #111 !important; font-weight: bold ! important; text-shadow: #CCC 1px 1px 2px !important; font-size: 11px !important; background: none !important}
+.chat_discussion_you .chat_time {text-shadow: none !important; color: #FFF !important; right: -10px; bottom: -6px}
+.chat_message {border-radius: 0 !important; margin: 0; padding: 2px 12px !important; color: #222; font-size: 12px !important; font-family: verdana !important}
+.chat_discussion_you .chat_message {color: #FFF}
+.chat_message:only-child, .chat_message:only-of-type {padding: 2px 1px}
+#chat_audio_button {left: -10px !important; z-index: 1}
+.chat_conversation_input_options_emoticons {background: url("http://image.forumfree.it/9/2/4/9/2/7/4/1423496651.png") #24369D no-repeat !important; width: 24px !important; height: 24px !important; margin: 7px 0 !important; border-radius: 100px !important}
+.chat_conversation_input_options_emoticons:active {border: 0 !important}
+.chat_conversation_input_options_emoticons_box {bottom: 49px !important;
+padding: 0 !important;
+width: auto !important;
+height: auto !important;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26)!important;
+background: #FFF !important}
+.chat_conversation_input_options_emoticons_box > ul {padding: 0 !important}
+.chat_conversation_input_options_emoticons_box > ul > li {display: inline-block !important; float: none !important}
+.chat_conversation_main::-webkit-scrollbar,
+#chat_contacts_manager::-webkit-scrollbar,
+#chat_friends_list::-webkit-scrollbar {display: none}
+#chat_conversations {background: #EEEEEF !important}
+.chat_discussion a {color: #9E9E9E !important}
+.chat_discussion_you a {color: #FFF !important}
+.chat_conversation_active > .chat_nick_list > a {color: #FFF !important}
+.chat_conversation_active > .chat_friend_service_list {color: #FFF !important}
+#chat_window {box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28)!important}
+
+/* Chat a sinistra + cambio font */
+#chat_main, #chat_show {background: #25467B !important; border-radius: 0 !important; right: auto !important; left: 0 !important; font-family: roboto}
+#chat_notify_message {right: auto !important; left: 0 !important; margin-left: 100px !important; font-family: helvetica}
+#chat_notification {right: auto !important; left: 0 !important; margin-left: 75px !important; font-family: helvetica}
+.chat_start_button {font-family: helvetica !important; padding: 1px !important; float: left;
+margin-left: 10px!important}
+
+#chat_settings_button {font-family: roboto !important; font-weight: 100!important; padding: 3px !important}
+#chat_main {font-family: helvetica !important}
+#chat_conversations {font-family: helvetica !important}
+#chat_settings_container {float:none!important}
+#chat_settings_menu {right: 0; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); !important; background-color: #FFFFFF!important; border-radius: 2px; border: none!important}
+
+/*Anti-bug EasySlide*/
+div[data-slide] > div {display:none} div[data-slide] > div:first-child {display:block}
+
+/*Freccie fighe EasySlide*/
+div.element input.before_button, div.element input.next_button
+ {position:absolute;
+left: 0;
+top: 50%;
+-webkit-transform:translate(0, -50%);
+-ms-transform:translate(0, -50%);
+transform:translate(0, -50%);
+border:none;
+width: 30px;
+height: 30px;
+margin: 0 15px;
+background-color:white;
+background-color:rgba(255, 255, 255, 0.88);
+color:black;
+font-weight:bold;
+border-radius: 3px;
+box-shadow: 0 0 7px -2px black;
+opacity: 0.4;
+-webkit-transition: 0.5s ease all;
+-ms-transition: 0.5s ease all;
+transition: 0.5s ease all}
+
+div.element:hover input.before_button, div.element:hover input.next_button
+{opacity: 1}
+
+div.element input.next_button {left:auto;
+right: 0}
+
+/*EasySlide - Parte destra*/
+div.element button.right_slide
+ {opacity: 1;
+z-index: 2;
+position:absolute;
+top: -26px;
+right: -26px;
+height: 22px;
+border:none;
+background:none;
+background-color:white;
+border-radius: 0;
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+-webkit-transition: 0.4s ease all;
+-moz-transition: 0.4s ease all;
+transition: 0.4s ease all}
+
+div.element button.right_slide:hover
+{background-color: #25467B}
+
+div.element button.right_slide.active
+{opacity: 0;
+z-index: 0}
+
+div.element {position:relative}
+
+/* Avatar in TagBoard */
+.ffav_tag {display: inline-table; margin-left: 4px; margin-right: 4px;
+width: 24px; height: 24px; border-radius: 20px}
+.ffav_tag > *, .ffav_tag > * > *, .ffav_tag > * > * > *, .ffav_tag > * > * > * > * {height: 24px !important; width: 24px !important; border-radius: 200px}
+.tag li {padding-top: 5px !important}
+
+/* Avatar accanto ai nickname nelle Statistiche */
+.ffav_stats {vertical-align: middle; display: inline-table;
+margin-left: 4px; margin-right: 4px; width: 24px; height: 24px}
+.ffav_stats > *, .ffav_stats > * > *, .ffav_stats > * > * > *, .ffav_stats > * > * > * > * {height: 24px !important; width: 24px !important; border-radius: 200px}
+
+/* Avatar accanto all'ultimo messaggio */
+.ffav_lastpost {display:inline-block; vertical-align:top; max-width: 30%}
+.ffav_lastpost > *, .ffav_lastpost > * > *, .ffav_lastpost > * > * > *, .ffav_lastpost > * > * > * > * {height: 40px !important; width: 40px !important}
+.ffav_lastpost img {margin: 5px 0 0; padding: 1px; border-radius: 200px}
+.ffav_lastpost-detalis {font-size: inherit; color: inherit; display:inline-block; margin: 0 0 0 10px; max-width: 81%}
+.forum .zz .ffav_lastpost-detalis .when > *, .forum .zz .ffav_lastpost-detalis .who > * {display: inline; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%}
+
+/* Avatar accanto alle citazioni */
+#ffav_quote {padding-left: 83px !important; padding-bottom: 25px !important}
+.quoteentry img {width: 60px; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); height: 60px; float: left; margin-top: 10px; margin-left: 30px; padding: 1px; border: 1px solid #D5D5D5; background: #FAFAFA}
+
+
+/* SFONDO BLU DIETRO LOGO */
+#toop {height: 850px; width: 100%; position: absolute; top: 0; background: url('http://i.imgur.com/c0shwTQ.jpg'); background-size: cover; background-repeat: repeat-x; opacity: 1; z-index: 0}
+
+/*FASTSEND*/
+.fast.send textarea {background: #F7F7F7; border: 1px solid #CECECE; resize: none; color: #494949; height: 100px}
+.fast.send .mainbg, .topic .mainbg {border-radius: 0; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15)}
+.fast.send .mback {display: none}
+.fast.send {position: relative; margin-top: -40px; border-top: 1px solid #E8ECEC}
+
+/* SCRIPT FASTLIFE */
+.fastedit_text {width: 100% !important; height: 305px !important; background: rgba(255, 255, 255, .6); border: 1px solid rgba(0, 0, 0, .3); border-radius: 0; font: 14px 'Segoe Ui'; font-size: bold; color: rgba(0, 0, 0, .8); padding: 2px 5px}
+.fastedit_text:focus {outline: none}
+.color > input {background: rgba(255, 255, 255, .6); border: 1px solid rgba(0, 0, 0, .3); border-radius: 0; padding: 3px 6px; font-family: segoe ui; font-size: 13px; color: rgba(0, 0, 0, .8)}
+
+/* BOX EVENTI */
+#c64488493 .mainbg > *:not(.big_list), #c64488493 .big_list > li > *:not(.bb):not(.zz), #c64488493 .zz .who {display: none}
+#c64488493 .mback, #c64488493 .mtitle {background: #3E3B50; text-shadow: none; color: #FAFAFA; text-align: left; font: bold 10pt/120% 'Trebuchet MS', Sans-serif}
+#c64488493 .big_list {text-align: center; font: bold 10pt/120% 'Trebuchet MS', Sans-serif}
+#c64488493 .big_list > li {position: relative; display: inline-block; width: 920px; background-size: cover; height: 160px; background-position-y: -200px; border-radius: 0}
+#c64488493 img {display: none; height: 140px; background-position-y: -195px; border-radius: 0}
+#c64488493 .mback {display: none}
+#c64488493 .bb, #c64510181 .zz {width: 100%}
+#c64488493 .desc {font-size: 9pt; line-height: 100%; overflow: hidden; text-align: justify; margin-right: 10px; margin-left: -10px; top: -10px; position: relative}
+#c64495904 .title.separator {margin: -10px 0}
+/* Ultimo messaggio */
+#c64488493 .when:before {content: "Ultima risposta: "; font-weight: bold} #c64488493 .where span:after {content: ":"}
+#c64488493 .where {display: block; text-align: left; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: bold}
+#c64488493 .where a {font-weight: normal}
+#c64488493 .zz {width: 400px; display: none}
+#c64488493 .ffav_lastpost {display: none}
+#f64488493 .web {position: relative; top: 60px}
+#f64488493 .web a {text-transform: uppercase; color: #FAFAFA; font-weight: bold}
+
+/* BOX DI SEZIONE WELCOME */
+#c8298367 .mainbg > *:not(.big_list), #c8298367 .big_list > li > *:not(.bb):not(.zz), #c8298367 .zz .who {display: none}, #c8298367 .mtitle {background: #3E3B50; text-shadow: none; color: #FAFAFA; text-align: left; font: bold 10pt/120% 'Trebuchet MS', Sans-serif}
+#c8298367 .big_list {text-align: center; font: bold 10pt/120% 'Trebuchet MS', Sans-serif}
+#c8298367 .big_list > li {position: relative; display: inline-block; width: 285px; padding: 5px 10px}
+#c8298367 .bb, #c8298367 .zz {width: 100%}
+#c8298367 .desc {font-size: 9pt; line-height: 100%; height: 40px; overflow: auto; text-align: justify; padding-right: 5px}
+/* Ultimo messaggio */
+#c8298367 .when:before {content: "Ultima risposta: "; font-weight: bold} #c8298367 .where span:after {content: ":"}
+#c8298367 .where {display: block; text-align: left; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: bold}
+#c8298367 .where a {font-weight: normal}
+#c8298367 .zz {width: 400px}
+#c8298367 .ffav_lastpost {display: none}
+
+/* BOX Bestsellers */
+#c64495903 .mainbg > *:not(.big_list), #c64495903 .big_list > li > *:not(.bb):not(.zz), #c64495903 .zz .who {display: none}
+#c64495903 .big_list {text-align: center; font: bold 10pt/120% 'Trebuchet MS', Sans-serif}
+#c64495903 .big_list > li {position: relative; display: inline-block; width: 285px; padding: 5px 10px}
+#c64495903 .bb, #c64495903 .zz {width: 100%}
+#c64495903 .desc {font-size: 9pt; line-height: 100%; height: 40px; overflow: auto; text-align: justify; padding-right: 5px}
+/* Ultimo messaggio */
+#c64495903 .when {width: 250px}
+#c64495903 .when:before {content: "Ultima risposta: "; font-weight: bold}
+#c64495903 .where span:after {content: ":"}
+#c64495903 .where {display: block; text-align: left; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: bold}
+#c64495903 .where a {font-weight: normal}
+#c64495903 .where a {font-weight: normal}
+#c64495903 .ffav_lastpost {display: none}
+
+
+/* On e Off */
+.on .web:before {content: url('http://img.forumfree.net/style_images/52/newpost.png'); vertical-align: top; margin-right: 5px}
+
+
+/* Immagini che si illuminano */
+.classe1 img {-webkit-transition: all .5s ease; -o-transition: all .2s ease; -moz-transition: all .4s ease; opacity: 1}
+.classe1 img:hover {opacity: 0.8}
+
+.classe2 img {-webkit-transition: all .5s ease; -o-transition: all .2s ease; -moz-transition: all .4s ease; opacity: 1}
+.classe2 img:hover {opacity: 0.8}
+
+.classe img {-webkit-transition: all .5s ease; -o-transition: all .2s ease; -moz-transition: all .5s ease; opacity: 1}
+.classe img:hover {opacity: 0.8}
+
+/* OPACITà TARGHETTE */
+.web a:link img, .web a:visited img {filter:alpha(opacity=30); -moz-opacity: 0.5; opacity: 0.5}
+.web a:hover img {filter:alpha(opacity=100); -moz-opacity: 1.0; opacity: 1.0}
+
+.web a:link img, .web a:visited img {filter:alpha(opacity=60); -moz-opacity: 0.7; opacity: 0.7; margin: 5px;
+transition-property: all; /*standard*/
+transition-duration: 0.5s;
+
+-webkit-transition-property: all; /*safari*/
+-webkit-transition-duration: 0.5s;
+
+-o-transition-property: all; /*opera*/
+-o-transition-duration: 0.5s;
+
+-moz-transition-property: all; /*firefox*/
+-moz-transition-duration: 0.5s}
+
+.web a:hover img {filter:alpha(opacity=100); -moz-opacity: 1.0; opacity: 1.0; -webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+transform: rotate(-7deg)}
+
+
+/* Separatore */
+.title.separator {background: #4FBA00!important;
+box-shadow: none; border: 0; border-radius: 0; color: #FFF;
+font: 13px 'raleway', 'segoe UI', Arial; font-weight: bold; display: block !important}
+.title.separator .bb {width: 46% !important}
+#f64495904, #f64495906, #f64495903, #f64333913, #f64507571, #f64527347, #f64535423 {display: none !important}
+
+
+/* other */
+body {font: 13px 'Segoe UI', Sans-serif; color: #333; background-color: #DEDEDE}
+
+a {text-decoration: none; color: #666; font-weight: bold; text-shadow: 0 0 0 rgba(255, 255, 255, 0.4)}
+a:hover {color: #25467B}
+
+hr {height: 0; border: 0; border-bottom: 1px solid rgba(0, 0, 0, 0.2)}
+abbr {border-bottom: 1px dotted #666; cursor: help}
+
+.nav {margin: 0 0 30px; text-align: left}
+.nav li {display: inline-block; color: #BCBCBC; font-size: 14px; cursor: default}
+.nav a {font-weight: bold; padding: 8px; display: inline-block}
+.nav a:hover {color: #1F60CA}
+#reg .nav {margin-top: 30px}
+
+.footer {margin: 15px auto; font-size: 11px; color: #444}
+.footer a {color: #444 !important; text-shadow: none}
+.footer a:hover {color: #25467B !important}
+
+/* Logo personale */
+.header {display: none}
+#headerwrap {width: 100%; height: 240px}
+#header {width: 940px; margin: 0 auto; margin-top: 40px !important; height: 240px; text-align: justify}
+#logo {display: inline-block}
+
+/* MENU principale */
+.menuwrap {font-family: verdana, tahoma, arial, sans-serif; background: #F2F2F2; border-top: 0; border-radius: 0 0 0 0; padding: 8px 0; border: 0 solid #CDB9A8; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2)}
+.menuwrap.alternative {border-radius: 0; margin-top: 10px}
+.menuwrap li {line-height: 2.0em; color: #2B4068}
+.menuwrap a {margin: 0; padding: 0 8px; font-size: 12px; color: #2B4068}
+.menuwrap a:hover, .menuwrap.alternative .right a:hover {color: #FFF}
+.menuwrap .right a:hover {color: #0042FF}
+.menuwrap .avatar, .menuwrap .avatar:hover {width: 24px; height: 24px; border: 2px solid #FFF; box-shadow: 0 1px 2px rgba(0, 0, 0, .2)}
+.menuwrap .icon a {padding: 0 6px}
+.menuwrap .nick:before {content: 'Ciao '}
+.menuwrap .nick:after {content: '!'}
+
+#m_up a {padding: 0 11px 0 0}
+#c_up {position: absolute; right: 10px; bottom: 10px; opacity: .5}
+#f_up {position: fixed; bottom: 20px; right: 1%; opacity: .9}
+.p_up:hover, #c_up:hover, #f_up:hover {opacity: 1; text-decoration: none; border: 0}
+
+/* esci e news */
+.menuwrap b {color: #535353}
+.menuwrap b:hover {color: #797979}
+
+/* numero msg e link REGISTRATI */
+.menuwrap em {padding: 2px 5px; color: #212E7F; text-shadow: none; background: #FFF; border-radius: 0; box-shadow: 0 1px 2px #D3D3D3}
+
+.menuwrap .nick {margin-left: .6em}
+.menuwrap form {padding: 0 11px 0 5px}
+
+
+/* MENU contestuale(dropdown) */
+.menu > a:hover, .menu:hover > a {color: #FFF; background: #25467B url(http://i.imgur.com/tRJpYBb.jpg) repeat-x !important; border-radius: 3px; border: 2px solid #FFF; box-shadow: 0 1px 2px rgba(0, 0, 0, .2)}
+.menu > a {background: transparent none repeat-x !important; border-radius: 0; border: 2px solid transparent; box-shadow: 0 1px 2px transparent}
+
+.menu ul {width: 15em; background: #F2F2F2; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2)}
+
+.right .menu ul {margin-left: -2em}
+
+.menu li {padding: 3px 4px; line-height: 1.4em; background: transparent url(http://skin.forumfree.net/2298/bl.png) top repeat-x}
+.menu li:first-child {padding-top: 0; border-top: 5px solid transparent; background: transparent none top repeat-x}
+.menu li strong {padding: 3px 8px; color: #535353}
+.menu li a {padding: 3px 8px !important; font-size: 12px; color: #2B4068 !important}
+.menu li a:hover, .menu li:hover > a {color: #797979 !important}
+
+/* SUB MENU contestuale(dropright) */
+/* Sposta msg pvt */
+.submenu.alternative ul {border-top: 1px solid #F2F2F2; margin-top: -2px}
+.submenu.alternative li:first-child {padding: 3px 4px; border-top: 0}
+
+
+/* LOGIN VELOCE */
+.menuwrap label, .menuwrap form a {padding: 0; font-size: 10px}
+.menuwrap label:hover {color: #FFF}
+
+.menuwrap input {padding: 3px; font: 11px verdana, arial, sans-serif; color: #0A3D9C; background: #FFF; border-radius: 0; box-shadow: 0 1px 2px #D3D3D3; border: 1px solid transparent}
+.menuwrap input:hover {cursor: pointer}
+.menuwrap input:focus {cursor: default; outline: none}
+
+
+/* CERCA */
+.menuwrap .search input {padding-right: 20px; background-image: url('http://img.forumfree.net/style_images/52/icon_search.png'); background-repeat: no-repeat; background-position: 96% -12%}
+
+
+/* LARGHEZZA BOARD */
+.container {margin: 0 auto; padding: 30px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); background-color: #F2F2F2 !important}
+.container, .tabs.top, .tabs.bottom {max-width: 940px}
+.menuwrap {max-width: 1000px}
+
+
+/* Tab */
+.tabs {padding: 10px 0 0; font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, Serif; letter-spacing: 0.05em; text-align: left; margin: 0}
+.tabs li {vertical-align: bottom}
+.tabs a {padding: 2px 10px; margin: 0 0 0 5px; display: block; border: 1px solid #CDCDCD; background-color: #E0E0E0; color: #333; font-weight: bold; text-decoration: none; border-bottom: 0}
+.tabs a:hover, .tabs .current a {background-color: #EEE; color: #333; border: 1px solid #CDCDCD; border-bottom: 0}
+.tabs li:first-child a {margin: 0}
+
+.tabs.top {text-align: right}
+.tabs.bottom {text-align: right}
+
+/* Skin by Pepiks */
+.skin_tbl {background-color: #EEE; border: 1px solid #DDD; box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)}
+#login .container > .skin_tbl, #reg .container > .skin_tbl {margin-top: 30px}
+body table#smilies.skin_tbl {margin: 20px 7%; width: 86% !important}
+.board .title.top {display: none}
+.mback {background-image: url(http://i.imgur.com/PiMPQrv.jpg); background-repeat: repeat-x; background-position: bottom; height: 43px}
+.mtitle {padding: 7px 65px 6px 25px; font: 14px 'Trebuchet MS', Serif; font-weight: bold; color: #EEE; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3)}
+.title, .darkbar {font-weight: bold; font-size: 10px}
+
+/* Adattamento .bb .zz */
+.board #c64495906 .zz, .board #c8300271 .zz, .board #c64314733 .zz, .board #c8300414 .zz, .board #c64422209 .zz, .board #c64345327 .zz, .board #c8623905 .zz, .board #c64492308 .zz, .board #c9936561 .zz, .board #c64496001 .zz, .board #c8407018 .zz, .board #c64344471 .zz, .board #c64476362 .zz, .board #c64419351 .zz, .board #c64422117 .zz, .board #c64315573 .zz, .board #c64451779 .zz, .board #c8386428 .zz, .board #c9936561 .zz, .board #c64476360 .zz, .board #c8359983 .zz, .board #c64422323 .zz, .board #c64521279 .zz, .board #c64527347 .zz, .board #c64530196 .zz, .board #c64535461 .zz {width: 35% !important; padding: 0 !important; margin: 0 !important}
+.board #c64495906 .bb, .board #c8300271 .bb, .board #c64314733 .bb, .board #c8300414 .bb, .board #c64422209 .bb, .board #c64345327 .bb, .board #c8623905 .bb, .board #c64492308 .bb, .board #c9936561 .bb, .board #c64496001 .bb, .board #c8407018 .bb, .board #c64344471 .bb, .board #c64476362 .bb, .board #c64419351 .bb, .board #c64422117 .bb, .board #c64315573 .bb, .board #c64451779 .bb, .board #c8386428 .bb, .board #c9936561 .bb, .board #c64476360 .bb, .board #c8359983 .bb, .board #c64422323 .bb, .board #c64521279 .bb, .board #c64527347 .bb, .board #c64530196 .bb, .board #c64535461 .bb {width: 35% !important}
+
+/* Lista sezioni */
+.board .skin_tbl li:hover {background-color: #FFF}
+.board .off .aa img {opacity: 0.7; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease;
+
+-o-transition: all 0.3s ease; transition: all 0.3s ease}
+.board .off:hover .aa img {opacity: 1}
+.board .on {background-color: rgba(255, 255, 255, 0.2) !important}
+.board .off .aa {min-height: 40px}
+.board .on .aa {min-height: 40px}
+
+/* .on .off .annuncio .importante .calda .chiusa .spostata */
+/* se non si specifica .forum ha effetto anche sul blog */
+.forum .annuncio {background: #EAFAE8}
+.forum .annuncio:nth-child(even) {background: #F2FDF1}
+.forum .importante {background: #ECEDFB}
+.forum .importante:nth-child(even) {background: #F3F4FF}}
+
+/* Selezione multiquote e moderazione */
+.focus, .article.focus {background-color: #3475CE !important}
+.focus * {color: #245098 !important}
+.focus * a:hover {border-color: #FFF !important}
+.focus .details {background: none !important; border-color: transparent !important}
+
+.web {font-weight: bold; font-size: 14px}
+#forum .web {font-weight: normal}
+#forum .annuncio .web, #forum .importante .web {font-weight: bold}
+.big_list li .web a img {padding: 3px; opacity: 0.7}
+.big_list li .web a img:hover {opacity: 1}
+.big_list li .web {padding: 2px}
+.desc {color: #3475CE; font-size: 11px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2)}
+.subs, .mods {font-size: 10px; font-weight: bold; padding-top: 8px}
+.on .web, .board .on .zz a, .forum .on .zz a {font-weight: bold}
+.spostata .web a {color: #31666E; font-style: segoe ui}
+
+/* Control panel: messenger, utente, moderatore */
+.main_list .mainbg {border: 0; box-shadow: none}
+.cp .tabs {text-align: left}
+.cp .skin_tbl {padding: 4px}
+.group .aa {width: 4.5%}
+.group .thumbs a {height: 40px}
+/* Avatar */
+.tabs2 div:hover {background-color: #25467B; color: #FFF}
+.tabs2 .current div {background-color: rgba(0, 0, 0, 0.2) !important; color: #333 !important}
+
+#msg .cp .sunbar, #user .cp .sunbar, #send .send .sunbar {padding-left: 2%; padding-right: 2%; text-align: right}
+
+/* Risposta */
+#loading .top, .summary .list .top {color: #555; border-bottom: 1px solid rgba(255, 255, 255, 0.2)}
+#loading .bottom, .summary .list .bottom {border-top: 1px solid rgba(0, 0, 0, 0.2)}
+
+.sunbar {padding: 4px 1%; margin: 5px 0 0; border-bottom: 2px solid rgba(0, 0, 0, 0.1); text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4); color: #666; font: 24px 'Trebuchet MS', Serif}
+
+.summary {margin: 3em 0 0}
+.summary .sunbar.top {margin-bottom: 5px}
+.summary .list {font-size: 11px; color: #404040}
+.summary .list > * {border-top: 1px solid rgba(0, 0, 0, 0.2)}
+.summary .list >:first-child {border: 0}
+.summary .list .top {background-color: rgba(255, 255, 255, 0.1)}
+.summary .quote, .summary .code {font-size: 10px}
+.summary .when {padding: 0 1%}
+.summary .sunbar.bottom {font-size: 14px; border: 0}
+
+/* Sondaggi */
+/* line-height è utile per centrare il testo verticalmente */
+.bar {background-color: rgba(0, 0, 0, 0.2); height: 20px; line-height: 19px; font-size: 6.5pt; color: #333 !important}
+.bar div {background-color: #327EC5}
+.max .bar {background-color: rgba(0, 0, 0, 0.2); color: #FFF !important}
+.max .bar div {background-color: #0064AA}
+
+/* Topic */
+.topic .mdesc {font-weight: normal; color: #FFF; font-size: 12px; text-shadow: 0 0 0 rgba(255, 255, 255, 0.2)}
+.topic .mtitle {padding: 7px 65px 7px 25px; height: 17px}
+
+.topic .post {padding: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.4)}
+.topic .post:first-child {border-top: none}
+.topic .post:last-child {border-bottom: none}
+
+.post {color: #404040}
+.post .center .left {padding: 0 10px}
+.post .center .right {padding: 5px}
+.post .right {padding-left: 10px !important}
+.post .bottom {font-size: 11px}
+
+.color {line-height: 1.8em; color: #404040; font-size: 14px}
+.color a {color: #25467B}
+.color a:hover {border-bottom: 1px dotted #25467B}
+.color ol, .color ul {line-height: 16px}
+.edit {font-size: 10px; color: #BBB; color: rgba(0, 0, 0, .3); font-weight: bold}
+.fancyborder {border: 1px solid rgba(0, 0, 0, 0.2) !important; background-color: rgba(0, 0, 0, 0.1)}
+.bottomborder {border-bottom: 1px solid rgba(0, 0, 0, 0.1); width: 100% !important}
+.signature {margin-top: -20px; padding-top: 10px}
+
+.post .nick {text-align: center; white-space: normal; word-wrap: break-word; font-weight: bold; font-size: larger; color: #888}
+
+/* Avatar e dettagli */
+.u_group dt {display: none}
+.post .details {padding-bottom: 10px; border: 1px solid #CDCDCD; background-color: #E5E5E5; overflow: visible !important; font-size: 11px; color: #333}
+.post .avatar, .profile .avatar {margin: 6px; overflow: visible}
+.post .avatar img, .profile .avatar img {background-color: #FFF; padding: 3px; border: 1px solid #CDCDCD}
+.post .details p {margin: 0 0 2px 0; padding: 4px 0 6px 0; background-color: rgba(0, 0, 0, 0.08)}
+.post .u_title {display: inline-block; padding: 2px}
+.post .details p:first-line {font-weight: bold}
+
+
+/* Online, offline, anonimo */
+.u_status dt {display: none}
+
+/* Quote, spoiler, code */
+/* 1° livello */
+.quote, .code {padding: 5px; font-weight: normal; color: rgba(0, 0, 0, 0.4); background-color: rgba(255, 255, 255, 0.1); border: 1px solid rgba(0, 0, 0, 0.2)}
+.quote_top, .code_top {color: rgba(0, 0, 0, 0.3); margin: 1em}
+/* 1° livello */
+.quote_top:before, .spoiler .code_top:before {color: #B4B4B4; content: '“'; position: relative; top: 15px; margin-right: 5px; font-size: 40px; font-family: 'Times New Roman'; font-weight: bold}
+.code_top:before {color: #B4B4B4; content: '<'; margin-right: 5px; font-size: 15px; font-family: verdana; font-weight: bold}
+.code_top:after {color: #B4B4B4; content: '/>'; margin-left: 5px; font-size: 15px; font-family: verdana; font-weight: bold}
+.spoiler .code_top:after {content: none}
+
+/* Blog */
+.blog .skin_tbl {border: 0}
+
+.blog .article {padding: 20px 0}
+.blog .article:first-child {padding-top: 10px}
+
+.btitle {padding: 0 0 0 4px; margin-bottom: -3px; font: 24px 'Trebuchet MS', Serif; color: #D93838; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3); overflow: visible}
+.btitle a {color: #D93838}
+.bdesc {font-weight: normal; color: #EEE; font-size: 16px}
+.on .btitle {font-weight: bold}
+.blog .replies, .blog .views {font-size: 17px; color: rgba(0, 0, 0, 0.3)}
+
+/* Data */
+.article .title2.top {position: relative; padding-left: 54px}
+.article .top .when {position: absolute; top: 2px; left: 5px; width: 41px; height: 44px; text-align: center; font-weight: bold; background-image: url(http://fedec96.altervista.org/vgc/skin/css/calendar.png); background-repeat: no-repeat; background-position: center}
+.article .top .when > *:first-child, .blog .top .when .d_month * {display: none}
+.article .top .when * {width: 100%; position: absolute; left: 0}
+.article .top .when .d_day {top: 19px; font-size: 9px; color: #AA0000 !important; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3)}
+.article .top .when .d_month *:first-child {display: block; top: 29px; font-size: 9px; color: #000 !important}
+.article .top .when .d_year {top: 6px; font-size: 8px; color: #FFF !important}
+
+/* Punti, commenti e visite */
+.article .top .right span {display: inline-block; text-align: center}
+.article .top .right a {font-weight: normal}
+.article .top .right a:hover {border: 0}
+.article .top .right em {font-weight: bold; font-size: 17px}
+
+.article .color {margin: 15px 0 20px; text-align: justify; line-height: 1.8em; font-size: 1.1em; color: #404040}
+.article .color .edit {color: rgba(0, 0, 0, 0.3)}
+
+
+/* TAGBOARD e CHAT */
+.tag, .chat {margin-bottom: 30px; font-family: segoe ui; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); border-radius: 0; background: #F2F2F2; padding: 0
+.tag} .skin_tbl {background: #F2F2F2}
+.tag .mainbg {overflow-y: hidden; overflow-x: hidden}
+.tag .list {padding-right: 35px; overflow-y: hidden; overflow-x: hidden}
+.tag .list, .side_tag .list {font-size: 13px; padding: 0; color: #111; font-weight: bold; font-family: segoe ui; colour:}
+
+.tag .textinput, .side_tag .textinput {font-size: 12px; padding: 1px; font-family: segoe ui !important; color: #686868}
+.tag textarea.textinput {background: #FBFBFB; border: 1px solid #D6D6D6;
+resize: none; font: 12px 'raleway', 'Open Sans', Arial!important; color: #7B7B7B}
+.tag .list li {background: #F2F2F2 !important; min-height: 16px; border-bottom: 1px solid #EAEAEA; padding-top: 9px !important; color: #5D5D5D; font-weight: normal; font: 12px 'raleway', 'Open Sans', segoe UI}
+.tag .list li:nth-child(even) {background: #F2F2F2 !important}
+.tag .mback {display: none}
+.tag {overflow-y: hidden; overflow-x: hidden}
+.tag input {display: none}
+.tag td:last-child .codebuttons:first-child {background: #25467B; color: #F2F2F2; padding: 11px; width: 100px; border: 0; font: 13px 'raleway', 'Open Sans'; font-weight: bold; right: 8px; position: relative}
+
+
+/* Lista utenti online */
+.online .yy a {font-weight: bold}
+
+/* Statistiche */
+#board .stats {color: #555; background-color: #EEE; margin-top: 23px; padding-bottom: 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)}
+#board .stats .bottom a {color: #25467B}
+#board .stats a:hover {border-bottom: 1px dotted #25467B}
+#board .stats .zz {width: auto}
+#board .stats .mback {display: none; margin: 0}
+#board .stats .mback_right {background: none; margin: 0}
+#board .stats .mback_left {background: none; margin: 0}
+#board .stats .skin_tbl {background: none; box-shadow: none; border: none}
+#board .stats .mainbg {box-shadow: none; background: none; border: 0}
+#board .stats .aa {display: none}
+#board .stats .users {padding: 3px !important}
+#board .stats .users a:hover {border-color: #25467B; color: #25467B}
+#board .stats .mtitle {padding: 4px 1%; margin: 5px 0 0; border-bottom: 2px solid rgba(0, 0, 0, 0.1); text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4); color: #666; font: 24px 'Trebuchet MS', Serif}
+
+.users {width: 100%}
+.users li:before {content:' - '; color: #404040; font-weight: bold}
+.users li:first-child:before {content: none}
+
+/* Pre Gruppi*/
+.stats .groups span {border-radius: 1px;
+line-height: 12px;
+padding: 0 5px;
+margin-right: 3px;
+font-size: 13px;
+color: #FFF !important;
+height: 15px; !important;
+font-weight: bold !important;
+color: #FFF;
+font: 'raleway', 'segoe UI', Arial; font-weight: bold}
+.stats .groups span {display: inline-block}
+.stats .groups dd:after {display: none}
+.stats .groups dd:before {display: none}
+.stats .groups:before {display:none}
+.stats * {list-style-type: none}
+.stats .groups dd:last-child:after {display: none}
+#board .stats .titolo {conte}
+/*Gruppi*/
+.stats .groups .utente {background: #000; text-transform: uppercase;
+height: 15px !important; padding-top: 5px !important}
+.utente {color: #000; font-weight: bold; height: 15px !important}
+
+.stats .groups .gruppo1 {background: #CE5454; text-transform: uppercase; height: 16px !important; padding-top: 5px !important}
+.gruppo1 {color: #CE5454; font-weight: bold}
+.stats .groups .gruppo2 {background: #548DCE; text-transform: uppercase; height: 16px !important; padding-top: 5px !important}
+.gruppo2 {color: #548DCE; font-weight: bold}
+.stats .groups .gruppo3 {background: #8F54CE; text-transform: uppercase; height: 16px !important; padding-top: 5px !important}
+.gruppo3 {color: #8F54CE; font-weight: bold}
+.stats .groups .gruppo4 {background: #49890A; text-transform: uppercase; height: 16px !important; padding-top: 5px !important}
+.gruppo4 {color: #49890A; font-weight: bold}
+.stats .groups .gruppo5 {background: #AA6000; text-transform: uppercase; height: 16px !important; padding-top: 5px !important}
+.gruppo5 {color: #AA6000; font-weight: bold}
+.stats .groups .gruppo6 {background: #242958; text-transform: uppercase; height: 16px !important; padding-top: 5px !important}
+.gruppo6 {color: #242958; font-weight: bold}
+
+/* Registrazione rapida */
+.reg {margin-bottom: 30px; padding: 2px; width: 517px}
+.reg .skin_tbl {background-color: none; border: none; box-shadow: none; padding: 0; color: #666}
+.reg .sunbar {font: 16px 'Segoe UI' semibold, Serif; border: none}
+
+/* Alert */
+.popup > div {background-color: rgba(0, 0, 0, 0.5)}
+.popup > div a {color: #FFF !important; text-shadow: none !important}
+.points img {opacity: 0.4; -webkit-transition: 0.2s ease; -moz-transition: 0.2s ease; -o-transition: 0.2s ease; transition: 0.2s ease}
+.points img:hover {opacity: 1}
+
+.navsub .info {font-size: .8em}
+.alert {padding: 1em; background-color: #3475CE !important; color: #000 !important; border: 1px solid #CCC}
+.info {padding: .5em; background-color: #EEE !important; color: #333 !important; border: 1px solid #CDCDCD}
+
+/*Profilo*/
+
+.profile .main_list li
+{display:block}
+
+.profile .skin_tbl
+{background-color: #F2F2F2;
+position:relative}
+
+/*togli tabs*/
+.profile ul.tabs {display:none}
+
+/*TOP*/
+
+.profile .left
+{display:block;
+height: 40px;
+width: 100% !important;
+background-color: #25467B;
+position:relative;
+text-align:left;
+padding: 0}
+
+.profile .left > * {display:inline-block;
+vertical-align:top}
+
+.profile .left .avatar
+{margin: 7px;
+padding: 0;
+border: 2px white solid;
+width: 100px;
+height: 100px;
+overflow:hidden;
+background-color:white;
+position:relative}
+
+.profile .left .avatar img
+{border:none;
+position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 0;
+margin: 0}
+
+.profile .left h2 span
+{display:inline-block;
+vertical-align:top}
+
+.profile .left h2 span.nick, .profile .left dl
+ {line-height: 40px;
+font-weight: bold;
+color: #EEE;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3)}
+.profile .left dl:before {content:"-";
+padding: 0 5px}
+
+.profile .left .mini_buttons {position:absolute;
+top: 95px;
+left: 130px;
+white-space:nowrap}
+
+/*Amici*/
+.profile dl.thumbs {position:absolute;
+left: 120px;
+right: 0;
+top: 40px}
+
+.profile dl.thumbs dt {display:none}
+.profile dl.thumbs dd {text-align:left; width: auto; display:block;
+white-space:nowrap;
+overflow:auto}
+
+/*MP*/
+li#tab3 dl:first-child dt {display:none}
+
+li#tab3 dl:first-child dd {position:absolute;
+top: 0;
+right: 0;
+height: 26px;
+width: 80px;
+padding: 0;
+margin: 0;
+display:block;
+line-height: 26px;
+color: white}
+
+li#tab3 dl:first-child dd a {position:absolute;
+top: 7px;
+right: 7px;
+background-color: #0AF;
+display:block;
+width: 80px;
+color: #EEE}
+
+li#tab3 dl:first-child dd img {display:none}
+
+/*RIGHT*/
+.profile .right {width:auto !important;
+display:block}
+
+/*TABELLA1*/
+.profile li#tab1
+{float:left;
+margin: 0;
+margin-top: 80px;
+width: 50%;
+padding: 0}
+.profile li#tab1:before {content:"Informazioni";
+height: 25px;
+line-height: 25px;
+background-color: #4FBA00;
+display:block;
+color: white;
+font-weight:bold;
+text-align:left;
+text-indent: 20px}
+
+/*TABELLA2*/
+.profile li#tab2
+{float:right;
+margin: 0;
+margin-top: 80px;
+width: 50%;
+padding: 0}
+.profile li#tab2:before {content:"Statistiche";
+height: 25px;
+line-height: 25px;
+background-color: #4FBA00;
+display:block;
+color: white;
+font-weight:bold;
+text-align:left;
+text-indent: 20px}
+.profile li#tab3
+{float:right;
+margin: 0;
+width: 50%;
+padding: 0}
+
+.profile li[id]
+{clear:both;
+border-top: 1px dashed #25467B;
+margin: 5px 0}
+
+.profile li#tab1, .profile li#tab2, .profile li#tab3 {clear:none;
+border-top:none}
+/* FINE PROFILO */
+
+
+/* Numeri pagina accanto al TITOLO dei topic */
+.pages2 {font-size: 10px}
+
+.pages2:before, .pages2:after {content: none}
+.pages2 li {margin: 0 0.2em; padding: 0}
+.pages2 li:first-child a {background-color: transparent; border: 0}
+/* Indicando a:link e a:visited i numeri rimangono colorati di nero anche se la riga viene selezionata e ha classe .focus */
+.pages2 a:link, .pages2 a:visited {opacity: 0.6; padding: 1px 4px; color: #333 !important; text-shadow: none !important; background-color: #CCC}
+.pages2 a:hover {opacity: 1}
+
+/* Numeri pagina ESTERNI alle tabelle */
+.top .pages {text-align: center; padding-top: 35px}
+.bottom .pages {text-align: center}
+.current_forum {display: none}
+
+.pages {font-size: 12px}
+
+.pages li {margin: 0 0.2em; padding: 0}
+.pages .current:before, .pages .current:after, .pages .lastpost:before, .pages .lastpost:after {content: none}
+
+.pages li a {padding: 4px; background-color: #EEE; border: 1px solid #CDCDCD}
+.pages li a:hover {background-color: #25467B; color: #FFF; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2); border-color: transparent}
+.pages li a:active {background-color: #25467B; color: #FFF; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2)}
+.pages .current {padding: 4px; background-color: #25467B; color: #FFF; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2); border-color: transparent}
+
+/* Input e button */
+* input[type=submit]:hover, * input[type=button]:hover, * input[type=submit]:focus, * input[type=button]:hover, * button:hover, * button:focus {background-color: #25467B; border-color: transparent; color: #FFF; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2)}
+* input[type=submit]:focus, * input[type=button]:focus, * button:focus {outline: none; box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2)}
+.codebuttons, .forminput, .textinput {background-color: #FFF; border: 1px solid #CDCDCD; padding: 3px; font-family: tahoma, sans-sarif; font-size: 8pt}
+.codebuttons:hover, .forminput:hover, .textinput:hover {border-color: #25467B}
+
+textarea.textinput {padding: 4px; line-height: 2em; font: 1em verdana, arial, serif}
+
+.darkbar a:hover {color: #666}
+.darkbar input.forminput, button.forminput, .navsub input.forminput[type=submit], .title input.forminput[type=submit], .fast.send input.forminput[type=submit] {padding: 4px; font-weight: bold}
+.title input.forminput[disabled=disabled], .title input.forminput[disabled=disabled]:hover, .title input.forminput[disabled=disabled]:active {cursor: not-allowed}
+.title input.forminput[disabled=disabled]:hover, .title input.forminput[disabled=disabled]:active {background-color: #FFF; border: 1px solid #CDCDCD; color: graytext; text-shadow: none}
+.fast.send .right {overflow: visible}
+.darkbar input.forminput, button.forminput {padding: 5px}
+.darkbar button.forminput {padding: 4px}
+
+textarea.textinput:focus, .forminput[type=text]:focus, .forminput[type=password]:focus {outline: none; border-color: #25467B}
+
+/*button credits*/
+.button.credits {background: #FFFFFF; width: 593px;
+margin-bottom: 10px; height: 31px; color: #000; border: 1px solid #CDCDCD}
+
+.button.raised {transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+transition-delay: 0.2s;
+box-shadow: 0 0 0x 0 rgba(0, 0, 0, 0.26)}
+
+.button.raised:active {box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+transition-delay: 0s}
+
+
+/* BBCode */
+.codebuttons[name=rem], input.codebuttons {padding: 4px}
+
+/* Form sotto il bottone "Nuova Disc." */
+.navsub form {font-size: .8em; padding-top: 20px}
+.navsub .forminput {box-shadow: none; border: 1px solid #CDCDCD}
+.navsub input.forminput:focus {border-color: #25467B}
+.navsub #keywords {padding: 4px}
+.navsub, .navsub .left, .navsub .right {overflow: visible}
+#members .navsub.bottom {padding-top: 25px}
+#members .navsub.top {padding-bottom: 25px}
+#members .navsub.top .pages {padding-top: 0}
+
+/* Nuova Disc. e Rispondi */
+.navsub.top {padding-bottom: 20px}
+.navsub.top .buttons {padding-top: 30px}
+.navsub.bottom {padding-top: 20px}
+
+.buttons a {margin-left: 10px; background-color: #FFF; border: 1px solid #CDCDCD; padding: 8px; font-weight: bold}
+.buttons a:hover {background-color: #25467B; border-color: transparent; color: #FFF; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2)}
+.buttons a:active {background-color: #25467B; border-color: transparent; color: #FFF; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2)}
+.buttons a:first-child {margin-left: 0}
+
+
+/* MP, E-mail, Web, eccetera */
+.post .mini_buttons a {font-size: 1em}
+.mini_buttons a {font-weight: bold; font-size: 0.9em}
+
+/* .mini_buttons > * seleziona anche il bottone di Facebook */
+.mini_buttons > * {margin-left: 10px}
+.post .mini_buttons > * {margin-left: 12px}
+.post .bottom .mini_buttons > * {margin-left: 14px}
+.mini_buttons > *:first-child {margin: 0 !important}
+
+/* Scritta multiquote */
+.title2 label {display: none}
+
+/* textarea nel .alert */
+.alert textarea.textinput {background-color: rgba(0, 0, 0, 0.2); border: 1px solid rgba(0, 0, 0, 0.2); box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1)}
+
+/* Affiliazioni */
+.affiliates {padding: 35px; margin-top: -30px}
+.affiliates a {padding: 6px; font-size: 14px; text-align: center; border: 1px solid #CDCDCD; background-color: #FFF; color: #333; font-weight: bold}
+.affiliates a:hover {color: #FFF; border-color: transparent; background-color: #25467B; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2)}
+.affiliates a:active {background-color: #25467B; border-color: transparent; color: #FFF; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2)}
+
+/* Container interno */
+.container-custom {max-width: 940px; margin: 40px auto}
+.container-custom .element {display: inline-block}
+
+/* Voto in top */
+.btn {margin-top: 10px}
+.btn a {border-bottom: 0 !important}
+.btn input {background-color: #FFF; border: 1px solid #CDCDCD; padding: 5px; margin: 10px; font-size: 12px; font-weight: bold; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)}
+.btn input:hover {cursor: pointer !important}
+.btn input:focus {background-color: #25467B; color: #FFF; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), inset 0 2px 5px rgba(0, 0, 0, 0.2)}
+
+
+/* FFMag */
+#close_popup a {color: #FFF !important}
